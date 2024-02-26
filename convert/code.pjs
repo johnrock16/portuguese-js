@@ -1,0 +1,36 @@
+classe Aluno {
+    nome = "";
+    nota = 0;
+    serie = 0;
+
+    construtor(nome, nota, serie) {
+        este.nome = nome;
+        esta.nota = nota;
+        esta.serie = serie;
+    }
+}
+
+classe AlunoUtilidades {
+    estaComNotaAzul(aluno) {
+        retorne aluno.nota >= 5;
+    }
+
+    resultadosFinais(aluno) {
+        se (aluno.nota >= 8) {
+            imprima(`O Aluno ${aluno.nome} passou e com uma boa nota foi pra ${aluno.serie + 1} série com a nota: ${aluno.nota}`);
+        } senão se (aluno.nota >= 5 && aluno.nota < 8) {
+            imprima(`O Aluno ${aluno.nome} passou de forma mediocre mas foi pra ${aluno.serie + 1} série com a nota: ${aluno.nota}`);
+        } senão {
+            imprima(`O Aluno ${aluno.nome} reprovou e continua na série ${aluno.serie} com a nota: ${aluno.nota}`);
+        }
+    }
+}
+
+var joao = novo Aluno("João", 9, 9);
+var jose = novo Aluno("José", 7, 7);
+var juniper = novo Aluno("Juniper", 4, 7);
+var alunoUtilidades = novo AlunoUtilidades();
+
+alunoUtilidades.resultadosFinais(joao);
+alunoUtilidades.resultadosFinais(jose);
+alunoUtilidades.resultadosFinais(juniper);

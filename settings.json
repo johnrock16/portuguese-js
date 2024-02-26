@@ -1,0 +1,47 @@
+{
+    "se": {
+        "replace": "if"
+    },
+    "senão": {
+        "replace": "else"
+    },
+    "senão se": {
+        "replace": "else if"
+    },
+    "para": {
+        "replace": "for"
+    },
+    "var": {
+        "replace": "let"
+    },
+    "enquanto": {
+        "replace": "while"
+    },
+    "imprima": {
+        "replace": "console.log"
+    },
+    "função": {
+        "replace": "function"
+    },
+    "classe": {
+        "replace": "class"
+    },
+    "construtor": {
+        "replace": "constructor"
+    },
+    "este": {
+        "replace": "this"
+    },
+    "esta": {
+        "replace": "this"
+    },
+    "novo": {
+        "replace": "new"
+    },
+    "nova": {
+        "replace": "new"
+    },
+    "retorne": {
+        "replace": "return"
+    }
+}
