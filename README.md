@@ -26,3 +26,8 @@ When your run your code the javascript code was written in portuguese will be co
 ## You can modify the keywords in settings.json
 You can create your own keywords in settings.json
 ![settings.json file you have the keywords and the string that must replace the keyword to javascript](./readMe/keywords-settings.jpg)
+
+## Your code will run
+How this project converts your portuguese code to javascript code your code will run through node-cmd library when you use npm start.
+
+![code running in a bash terminal](./readMe/code-run.jpg)
